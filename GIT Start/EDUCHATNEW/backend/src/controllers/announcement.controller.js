@@ -3,7 +3,7 @@ import User from "../models/user.model.js";
 import cloudinary from "../lib/cloudinary.js";
 import { Readable } from "stream";
 
-// 🎉 1. Create an Announcement
+// 1. Create an Announcement
 export const createAnnouncement = async (req, res) => {
   try {
     const { text } = req.body;
